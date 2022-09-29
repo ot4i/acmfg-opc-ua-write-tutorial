@@ -182,10 +182,10 @@
 										"details": "For example : Modify C:\\TESTSERVER\\server.conf.yaml in windows and /opt/TESTSERVER/server.conf.yaml in linux/unix to add the following lines under 'ConnectorProviders' to add App Connect for Manufacturing connector provider properties.:"
 									},									
 									{
-										"details": "For Windows: <br>ACMfg:<br>&nbsp;&nbsp;&nbsp;&nbsp;connectorClassName:<br>'com.ibm.industrypack.industryclient.connector.ICConnectorFactory'<br>&nbsp;&nbsp;&nbsp;&nbsp;jarsURL: 'C:\\Program Files\\IBM\\ACMfg\\3.0.1.0\\runtime\\amd64_nt_4'<br>&nbsp;&nbsp;&nbsp;&nbsp;property1: 'trustCertificate=true'<br>&nbsp;&nbsp;&nbsp;&nbsp;property2: 'allowEndpointMismatch=true;discardData=false'"
+										"details": "For Windows: <br><code>&nbsp;&nbsp;ACMfg:<br>&nbsp;&nbsp;&nbsp;&nbsp;connectorClassName: 'com.ibm.industrypack.industryclient.connector.ICConnectorFactory'<br>&nbsp;&nbsp;&nbsp;&nbsp;jarsURL: 'C:\\Program Files\\IBM\\ACMfg\\3.0.1.0\\runtime\\amd64_nt_4'<br>&nbsp;&nbsp;&nbsp;&nbsp;property1: 'trustCertificate=true'<br>&nbsp;&nbsp;&nbsp;&nbsp;property2: 'allowEndpointMismatch=true;discardData=false'</code>"
 									},
 									{
-										"details": "For Linux/Unix: <br>ACMfg:<br>&nbsp;&nbsp;&nbsp;&nbsp;connectorClassName:<br>'com.ibm.industrypack.industryclient.connector.ICConnectorFactory'<br>&nbsp;&nbsp;&nbsp;&nbsp;jarsURL: '/opt/IBM/ACMfg-3.0.1.0/runtime/amd64_linux_2'<br>&nbsp;&nbsp;&nbsp;&nbsp;property1: 'trustCertificate=true'<br>&nbsp;&nbsp;&nbsp;&nbsp;property2: 'allowEndpointMismatch=true;discardData=false'"
+										"details": "For Linux/Unix: <br><code>&nbsp;&nbsp;ACMfg:<br>&nbsp;&nbsp;&nbsp;&nbsp;connectorClassName: 'com.ibm.industrypack.industryclient.connector.ICConnectorFactory'<br>&nbsp;&nbsp;&nbsp;&nbsp;jarsURL: '/opt/IBM/ACMfg-3.0.1.0/runtime/amd64_linux_2'<br>&nbsp;&nbsp;&nbsp;&nbsp;property1: 'trustCertificate=true'<br>&nbsp;&nbsp;&nbsp;&nbsp;property2: 'allowEndpointMismatch=true;discardData=false'</code>"
 									},
 									{
 										"details": "Note: The jarsURL is the installation directory of App Connect for Manufacturing that points to the amd64_nt_n folder."
@@ -221,7 +221,7 @@
 			"run": {
 				"overview": {
 					"name": "Run",
-					"heading": "",
+					"heading": "Configure, Deploy and Test the Write Flow",
 					"_runComment": "The full steps for the user to run through the tutorial. Use 'sections' to render paragraphs, 'steps' with a type of 'ordered' or 'unordered' to render HTML lists, and 'substeps' to render nested lists.",
 					"sections": [{
 							"section": "Configuring the OPC-UA-Write node message flow ",
